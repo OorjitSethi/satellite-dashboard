@@ -269,7 +269,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ##  Support
 
-- 📧 **Email**: [Your Email Here]
+- 📧 **Email**: sethioorjit2008@gmail.com
 - 🐛 **Issues**: [GitHub Issues](https://github.com/OorjitSethi/satellite-dashboard/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/OorjitSethi/satellite-dashboard/discussions)
 
