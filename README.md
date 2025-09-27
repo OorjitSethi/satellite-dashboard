@@ -10,13 +10,13 @@ A full-stack web application for real-time visualization of satellite ground tra
 ## Features
 
 - **Smart Satellite Search**: Search satellites by name with autocomplete from CelesTrak database
-- 📡 **Direct TLE Input**: Manual TLE entry for custom satellite tracking
-- 🌍 **Interactive World Map**: Real-time ground track visualization with Plotly.js
-- 🎨 **Azimuth Coloring**: Color-coded tracks showing satellite direction changes
-- ⏰ **Real-time Propagation**: SGP4 orbital mechanics for accurate positioning
-- 📊 **Orbit Metadata**: Display TLE epoch, age, and propagation timeframes
-- 🔄 **Auto-refresh TLEs**: Automatic handling of stale orbital data
-- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
+-  **Direct TLE Input**: Manual TLE entry for custom satellite tracking
+-  **Interactive World Map**: Real-time ground track visualization with Plotly.js
+-  **Azimuth Coloring**: Color-coded tracks showing satellite direction changes
+-  **Real-time Propagation**: SGP4 orbital mechanics for accurate positioning
+-  **Orbit Metadata**: Display TLE epoch, age, and propagation timeframes
+-  **Auto-refresh TLEs**: Automatic handling of stale orbital data
+-  **Responsive Design**: Works seamlessly on desktop and mobile devices
 
 ## Architecture
 
