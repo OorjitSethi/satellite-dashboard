@@ -7,8 +7,6 @@
 
 A full-stack web application for real-time visualization of satellite ground tracks using TLE (Two-Line Element) data. Track satellites in orbit with beautiful azimuth-colored paths, real-time propagation, and interactive maps.
 
-![Satellite Dashboard Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Satellite+Ground+Track+Visualization)
-
 ## Features
 
 - **Smart Satellite Search**: Search satellites by name with autocomplete from CelesTrak database
