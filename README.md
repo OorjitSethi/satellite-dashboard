@@ -1,4 +1,4 @@
-# 🛰️ Satellite Ground Track Dashboard
+# Satellite Ground Track Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://python.org)
 [![React](https://img.shields.io/badge/React-18+-61dafb?logo=react&logoColor=white)](https://reactjs.org)
@@ -9,37 +9,37 @@ A full-stack web application for real-time visualization of satellite ground tra
 
 ![Satellite Dashboard Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Satellite+Ground+Track+Visualization)
 
-## ✨ Features
+## Features
 
-- 🔍 **Smart Satellite Search**: Search satellites by name with autocomplete from CelesTrak database
+- **Smart Satellite Search**: Search satellites by name with autocomplete from CelesTrak database
 - 📡 **Direct TLE Input**: Manual TLE entry for custom satellite tracking
-- 🌍 **Interactive Globe**: Real-time ground track visualization with Plotly.js
+- 🌍 **Interactive World Map**: Real-time ground track visualization with Plotly.js
 - 🎨 **Azimuth Coloring**: Color-coded tracks showing satellite direction changes
 - ⏰ **Real-time Propagation**: SGP4 orbital mechanics for accurate positioning
 - 📊 **Orbit Metadata**: Display TLE epoch, age, and propagation timeframes
 - 🔄 **Auto-refresh TLEs**: Automatic handling of stale orbital data
 - 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-## 🏗️ Architecture
+## Architecture
 
 ```
-📦 satellite-dashboard/
-├── 🖥️ backend/                 # Flask API Server
+ satellite-dashboard/
+├──  backend/                 # Flask API Server
 │   ├── app.py                  # Main Flask application
 │   ├── requirements.txt        # Python dependencies
 │   └── data/
 │       └── tle_catalog.txt     # Optional local TLE catalog
-├── 🌐 frontend/                # React Web Application
+├──  frontend/                # React Web Application
 │   ├── package.json           # Node.js dependencies
 │   ├── public/                # Static assets
 │   └── src/                   # React components & logic
 │       ├── App.js             # Main application component
 │       ├── components/        # Reusable UI components
 │       └── utils/             # Helper functions
-└── 📝 README.md               # Project documentation
+└──  README.md               # Project documentation
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -47,14 +47,14 @@ A full-stack web application for real-time visualization of satellite ground tra
 - **Node.js 18+** and npm
 - **Git** for version control
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/OorjitSethi/satellite-dashboard.git
 cd satellite-dashboard
 ```
 
-### 2️⃣ Backend Setup
+### Backend Setup
 
 ```bash
 # Navigate to backend directory
@@ -76,9 +76,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-✅ **Backend server running at:** http://127.0.0.1:5000
+ **Backend server running at:** http://127.0.0.1:5000
 
-### 3️⃣ Frontend Setup
+### Frontend Setup
 
 Open a new terminal window:
 
@@ -93,9 +93,9 @@ npm install
 npm start
 ```
 
-✅ **Frontend application running at:** http://localhost:3000
+ **Frontend application running at:** http://localhost:3000
 
-### 4️⃣ Usage
+### Usage
 
 1. **Open your browser** and navigate to http://localhost:3000
 2. **Search for satellites** using the search bar (try "ISS", "Hubble", "Starlink")
@@ -103,7 +103,7 @@ npm start
 4. **Click "Track Satellite"** to visualize its ground track
 5. **Explore the map** with zoom, pan, and hover interactions
 
-## 🛠️ Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -134,7 +134,7 @@ HUBBLE SPACE TELESCOPE
 2 20580  28.4691 123.4567 0002640 123.4567 236.7890 15.09234567234567
 ```
 
-## 🔌 API Reference
+## API Reference
 
 ### Core Endpoints
 
@@ -195,33 +195,33 @@ Content-Type: application/json
 }
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
 | Symptom | Cause | Solution |
 |---------|-------|----------|
-| ⏳ Long first request | Satellite database fetching from CelesTrak | Wait ~10-30 seconds; subsequent requests are cached |
-| ❌ 500 error on propagation | Outdated/invalid TLE data | Refresh TLE data via `/api/get-tle` endpoint |
-| 🔄 Track appears stationary | Very old TLE or geostationary satellite | Increase duration or verify TLE freshness |
-| 🌐 Frontend can't connect | Backend not running or wrong port | Ensure backend is running on port 5000 |
-| 📦 Module import errors | Missing Python dependencies | Run `pip install -r requirements.txt` |
+|  Long first request | Satellite database fetching from CelesTrak | Wait ~10-30 seconds; subsequent requests are cached |
+|  500 error on propagation | Outdated/invalid TLE data | Refresh TLE data via `/api/get-tle` endpoint |
+|  Track appears stationary | Very old TLE or geostationary satellite | Increase duration or verify TLE freshness |
+|  Frontend can't connect | Backend not running or wrong port | Ensure backend is running on port 5000 |
+|  Module import errors | Missing Python dependencies | Run `pip install -r requirements.txt` |
 
 ### Performance Tips
 
-- 🚀 **First Launch**: Initial satellite database fetch may take 10-30 seconds
-- ⚡ **Caching**: Subsequent searches are fast due to local caching
-- 🔄 **TLE Freshness**: Refresh TLEs every 24-48 hours for accuracy
-- 💾 **Local Catalog**: Use `TLE_FILE` environment variable for offline mode
+-  **First Launch**: Initial satellite database fetch may take 10-30 seconds
+-  **Caching**: Subsequent searches are fast due to local caching
+-  **TLE Freshness**: Refresh TLEs every 24-48 hours for accuracy
+-  **Local Catalog**: Use `TLE_FILE` environment variable for offline mode
 
-## 🛣️ Roadmap
+##  Roadmap
 
 ### 🔄 Current Development
 - [ ] Real-time satellite position updates
 - [ ] Multiple satellite tracking simultaneously
 - [ ] 3D visualization mode
 
-### 🔮 Future Features
+###  Future Features
 - [ ] Satellite pass predictions for ground observers
 - [ ] Altitude profile visualization
 - [ ] Ground track animation with time controls
@@ -231,7 +231,7 @@ Content-Type: application/json
 - [ ] User accounts and favorite satellites
 - [ ] Mobile app (React Native)
 
-### 🧪 Development Improvements
+###  Development Improvements
 - [ ] Unit tests (pytest + Jest)
 - [ ] Integration tests
 - [ ] CI/CD pipeline (GitHub Actions)
@@ -239,7 +239,7 @@ Content-Type: application/json
 - [ ] Performance monitoring
 - [ ] Error tracking (Sentry)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -257,11 +257,11 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 - **JavaScript**: Use Prettier, ESLint configuration
 - **Commits**: Use conventional commit messages
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **[CelesTrak](https://celestrak.com/)** for providing satellite TLE data
 - **[SGP4](https://pypi.org/project/sgp4/)** library for orbital mechanics
@@ -269,7 +269,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **[Flask](https://flask.palletsprojects.com/)** for the backend framework
 - **[React](https://reactjs.org/)** for the frontend framework
 
-## 📞 Support
+##  Support
 
 - 📧 **Email**: [Your Email Here]
 - 🐛 **Issues**: [GitHub Issues](https://github.com/OorjitSethi/satellite-dashboard/issues)
