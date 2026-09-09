@@ -212,31 +212,6 @@ Content-Type: application/json
 -  **TLE Freshness**: Refresh TLEs every 24-48 hours for accuracy
 -  **Local Catalog**: Use `TLE_FILE` environment variable for offline mode
 
-##  Roadmap
-
-### 🔄 Current Development
-- [ ] Real-time satellite position updates
-- [ ] Multiple satellite tracking simultaneously
-- [ ] 3D visualization mode
-
-###  Future Features
-- [ ] Satellite pass predictions for ground observers
-- [ ] Altitude profile visualization
-- [ ] Ground track animation with time controls
-- [ ] Export functionality (KML, GeoJSON)
-- [ ] Docker containerization
-- [ ] Database persistence for TLE caching
-- [ ] User accounts and favorite satellites
-- [ ] Mobile app (React Native)
-
-###  Development Improvements
-- [ ] Unit tests (pytest + Jest)
-- [ ] Integration tests
-- [ ] CI/CD pipeline (GitHub Actions)
-- [ ] Code coverage reports
-- [ ] Performance monitoring
-- [ ] Error tracking (Sentry)
-
 ##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
